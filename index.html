@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape.</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/reset.css">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div data-aos="fade-down" class="navbar__logo">
+                    <a href="index.html"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <ul class="navbar__collection">
+                    <li data-aos="fade-down" data-aos-delay="300" class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+                    <li data-aos="fade-down" data-aos-delay="600" class="navbar__item"><a href="#" class="navbar__link">Categories</a></li>
+                    <li data-aos="fade-down" data-aos-delay="900" class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+                    <li data-aos="fade-down" data-aos-delay="1200" class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
+
+                </ul>
+                <button class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" class="hero__content">
+                <h1 class="hero__heading">Let's do it together.</h1>
+                <p class="hero__text">We travel the world in search of stories. Come along for the ride.</p>
+                <button class="hero__btn">View Latest Posts</button>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="category">
+                    <ul class="category__list">
+                        <li data-aos="fade-right" data-aos-delay="300" class="category__item"><a href="#" class="category__link">Nature</a></li>
+                        <li data-aos="fade-right" data-aos-delay="600" class="category__item"><a href="#" class="category__link">Photography</a></li>
+                        <li data-aos="fade-right" data-aos-delay="900" class="category__item"><a href="#" class="category__link">Relaxation</a></li>
+                        <li data-aos="fade-right" data-aos-delay="1200" class="category__item"><a href="#" class="category__link">Vacation</a></li>
+                        <li data-aos="fade-right" data-aos-delay="1500" class="category__item"><a href="#" class="category__link">Travel</a></li>
+                        <li data-aos="fade-right" data-aos-delay="1800" class="category__item"><a href="#" class="category__link">Adventure</a></li>
+                    </ul>
+                    <select data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" name="category" id="" class="category__select">
+                        <option value="all">Nature</option>
+                        <option value="photography">Photography</option>
+                        <option value="relaxation">Relaxation</option>
+                        <option value="vacation">Vacation</option>
+                        <option value="travel">Travel</option>
+                        <option value="adventure">Adventure</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="feauture">
+            <div class="container">
+                <h2 data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="feauture__title">Featured Posts</h2>
+                <hr>
+                <div data-aos="flip-down" data-aos-delay="300" class="feauture__list">
+                    <div class="feauture__item-1">
+                        <div class="feauture__item-content">
+                            <h3>The Road Ahead</h3>
+                            <p>The road ahead might be paved - it might not be.</p>
+                            <div class="feauture__item-card">
+                                <img src="./images/avatar2.png" alt="">
+                                <p>Mat Vogels</p>
+                                <data value="September 25, 2015">September 25, 2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-down" data-aos-delay="600" class="feauture__item-2">
+                        <div class="feauture__item-content">
+                            <h3>From Top Down</h3>
+                            <p>Once a year, go someplace you’ve never been before.</p>
+                            <div class="feauture__item-card">
+                                <img src="./images/avatar1.png" alt="">
+                                <p>William Wong</p>
+                                <data value="September 25, 2015">September 25, 2015</data>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recent">
+            <div class="container">
+                <h2 data-aos="fade-up" class="recent__title">Most Recent</h2>
+                <hr>
+                <div class="recent__list">
+                    <div data-aos="flip-left" class="recent__item">
+                        <img src="./images/recent1.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Still Standing Tall</h3>
+                            <p>Life begins at the end of your comfort zone.</p>
+                            <div class="recent__card">
+                                <img src="./images/avatar1.png" alt="">
+                                <p>William Wong</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-delay="250" class="recent__item">
+                        <img src="./images/recent2.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Sunny Side Up</h3>
+                            <p>No place is ever as bad as they tell you it’s going to be.</p>
+                            <div style="margin-top: 7px;" class="recent__card">
+                                <img src="./images/avatar2.png" alt="">
+                                <p>Mat Vogels</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-delay="550" class="recent__item">
+                        <img src="./images/recent3.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Water Falls</h3>
+                            <p>We travel not to escape life, but for life not to escape us.</p>
+                            <div style="margin-top: 7px;" class="recent__card">
+                                <img src="./images/avatar2.png" alt="">
+                                <p>Mat Vogels</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-delay="850" class="recent__item">
+                        <img src="./images/recent4.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Through the Mist</h3>
+                            <p>Travel makes you see what a tiny place you occupy in the world.</p>
+                            <div style="margin-top: 7px;" class="recent__card">
+                                <img src="./images/avatar1.png" alt="">
+                                <p>William Wong</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-delay="1150" class="recent__item">
+                        <img src="./images/recent5.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Awaken Early</h3>
+                            <p>Not all those who wander are lost.</p>
+                            <div class="recent__card">
+                                <img src="./images/avatar2.png" alt="">
+                                <p>Mat Vogels</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-delay="1450" class="recent__item">
+                        <img src="./images/recent6.png" alt="" class="recent__img">
+                        <div class="recent__content">
+                            <h3>Try it Always</h3>
+                            <p>The world is a book, and those who do not travel read only one page.</p>
+                            <div style="margin-top: 7px;" class="recent__card">
+                                <img src="./images/avatar2.png" alt="">
+                                <p>William Wong</p>
+                                <data value="September 25, 2015">9/25/2015</data>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 data-aos="zoom-in-up" data-aos-duration="2400" class="footer__title">Stay in Touch</h2>
+            <hr>
+            <div data-aos="zoom-in-up" data-aos-duration="2500" class="footer__form">
+                <input type="text" class="footer__input" placeholder="Enter your email address">
+                <input type="submit" value="Submit" class="footer__submit">
+            </div>
+        </div>
+        <div class="footer__nav">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <a href="index.html"><img src="./images/logo.png" alt=""></a>
+                    </div>
+                    <ul class="navbar__collection">
+                        <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+                        <li class="navbar__item"><a href="#" class="navbar__link">Categories</a></li>
+                        <li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+                        <li class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
+    
+                    </ul>
+                    <button class="navbar__menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
